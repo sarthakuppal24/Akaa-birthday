@@ -141,7 +141,7 @@ h2 {
 }
 
 #showcase {
-    background: url(img/cake.jpeg);
+    background: url(img/cake.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -179,7 +179,7 @@ h2 {
     font-family: 'Great Vibes', cursive;
     text-align: center;
     line-height: 3rem;
-    text-decoration: underline overline solid #333;
+    text-decoration: underline overline solid #000;
     letter-spacing: 3.5px;
     font-weight: bolder;
 }
@@ -227,11 +227,15 @@ h2 {
 }
 
 #bg-image2 {
-    background-image: url(img/balloons.jpeg);
+    background-image: url(img/panda.jpg);
 }
 
 #bg-image1 {
-    background-image: url(img/gifts.jpeg);
+    background-image: url(img/panda.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#bg-image4 {
+    background-image: url(img/panda.jpg);
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -244,10 +248,10 @@ h2 {
 }
 
 body{
-    background-color: #1f1f1f;
+    background-color: #eb3333;
 }
 
 footer{
-    background-color: #1f1f1f;
+    background-color: #eb3333;
     padding-bottom: 0px;
 }
